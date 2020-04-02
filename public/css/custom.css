@@ -1,0 +1,76 @@
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+#usermodal .modal-body{
+    height: 400px;
+    overflow-y: auto;
+}
+.modal-header{
+background: #3c8dbc;
+color:#fff;
+}
+#emailmsg
+{
+  color:red;
+}
+.cat_header
+{
+  display:block !important;
+}
+.adduser button,.changepwd button{border:none !important; margin-bottom: 0px !important;}
+.adduser button, .changepwd button{
+
+    text-align: center;
+    padding: 4px;
+    width: 150px;
+    background: #3c8dbc !important;
+    border: 1px solid #3c8dbc !important;
+    color: #fff;
+    margin-bottom: 11px !important;
+    mouseevents: inherit;   
+    }
+    .adduser
+    {
+        text-align:right;
+    }
+    .changepwd
+    {
+      margin-top:30px;
+    }
+    .card-body.table-responsive .dt-buttons a.buttons-csv 
+    {
+      background: #3c8dbc !important;
+      color:#fff;
+    }
+    .add_cat button{
+
+    text-align: center;
+    padding: 4px;
+    width: 150px;
+    background: #3c8dbc !important;
+    border: 1px solid #3c8dbc !important;
+    color: #fff;
+    margin-bottom: 11px;
+    mouseevents: inherit;   
+    }
+    .add_cat
+    {
+        text-align:right;
+    }
+    table.fixedHeader-floating{position:fixed !important;background-color:white}table.fixedHeader-floating.no-footer{border-bottom-width:0}table.fixedHeader-locked{position:absolute !important;background-color:white}@media print{table.fixedHeader-floating{display:none}}
+
+ .table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+    
+    
+@font-face {
+    font-family: roboto;
+    src: url('{{ public_path('roboto_fonts/Roboto-Black_0.tff') }}');
+}
+
+</style>
